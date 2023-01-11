@@ -73,7 +73,7 @@ uuid = { default-features = false, version = "1.0.0", features = ["serde", "std"
 zerocopy = { default-features = false, version="0.6.1" }
 lazy_static = { default-features = false, version="1.4.0" }
 log = { default-features = false, version="0.4.16" }
-zstd = { default-features = false, version = "0.11.1+zstd.1.5.2", optional = true }
+zstd = { default-features = false, version = "0.12.2+zstd.1.5.2", optional = true }
 apache-avro-derive = { default-features = false, version= "0.14.0", path = "../avro_derive", optional = true }
 
 [dev-dependencies]
