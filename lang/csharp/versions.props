@@ -27,7 +27,7 @@
   -->
   <PropertyGroup Label="Latest Package Versions">
     <NewtonsoftJsonVersion>13.0.1</NewtonsoftJsonVersion>
-    <SystemCodeDomVersion>8.0.0</SystemCodeDomVersion>
+    <SystemCodeDomVersion>9.0.7</SystemCodeDomVersion>
     <SystemReflectionVersion>4.3.0</SystemReflectionVersion>
     <SystemReflectionEmitILGenerationVersion>4.7.0</SystemReflectionEmitILGenerationVersion>
     <SystemReflectionEmitLightweightVersion>4.7.0</SystemReflectionEmitLightweightVersion>
@@ -37,7 +37,7 @@
     <IronSnappyVersion>1.3.1</IronSnappyVersion>
     <!-- As of 11/19/2023, Joveler.Compression.XZ 4.3+ is not compatible with the Linux ARM64 C# github workflow.
     Keep it at 4.1.0 until the issue is resolved. Maybe the shipped liblzma.so is incompatible? -->
-    <JovelerCompressionXZVersion>4.1.0</JovelerCompressionXZVersion>
+    <JovelerCompressionXZVersion>5.0.2</JovelerCompressionXZVersion>
     <ZstandardNetVersion>1.1.7</ZstandardNetVersion>
   </PropertyGroup>
 
@@ -50,7 +50,7 @@
   -->
   <PropertyGroup Label="Minimum Package Versions">
     <!-- Newtonsoft.Json prior to version 13.0.1 is vulnerable. See https://github.com/advisories/GHSA-5crp-9r3c-p9vr -->
-    <NewtonsoftJsonMinimumVersion>13.0.1</NewtonsoftJsonMinimumVersion>
+    <NewtonsoftJsonMinimumVersion>13.0.3</NewtonsoftJsonMinimumVersion>
   </PropertyGroup>
 
   <!--
@@ -58,19 +58,19 @@
 	Please sort the packages alphabetically
   -->
   <PropertyGroup Label="Build, Test, Code Analysis, Benchmark Package Versions">
-    <BenchmarkDotNetVersion>0.13.10</BenchmarkDotNetVersion>
-    <CoverletCollectorVersion>6.0.0</CoverletCollectorVersion>
-    <CoverletMSBuildVersion>6.0.0</CoverletMSBuildVersion>
-    <MicrosoftBuildFrameworkVersion>17.8.3</MicrosoftBuildFrameworkVersion>
-    <MicrosoftBuildUtilitiesCoreVersion>17.8.3</MicrosoftBuildUtilitiesCoreVersion>
+    <BenchmarkDotNetVersion>0.15.2</BenchmarkDotNetVersion>
+    <CoverletCollectorVersion>6.0.4</CoverletCollectorVersion>
+    <CoverletMSBuildVersion>6.0.4</CoverletMSBuildVersion>
+    <MicrosoftBuildFrameworkVersion>17.14.8</MicrosoftBuildFrameworkVersion>
+    <MicrosoftBuildUtilitiesCoreVersion>17.14.8</MicrosoftBuildUtilitiesCoreVersion>
     <MicrosoftCodeAnalysisVersion>4.7.0</MicrosoftCodeAnalysisVersion>
-    <MicrosoftCodeAnalysisCSharpVersion>4.7.0</MicrosoftCodeAnalysisCSharpVersion>
+    <MicrosoftCodeAnalysisCSharpVersion>4.14.0</MicrosoftCodeAnalysisCSharpVersion>
     <MicrosoftCodeAnalysisCSharpCodeStyleVersion>4.7.0</MicrosoftCodeAnalysisCSharpCodeStyleVersion>
     <MicrosoftCodeAnalysisNetAnalyzersVersion>8.0.0</MicrosoftCodeAnalysisNetAnalyzersVersion>
-    <MicrosoftNETTestSdkVersion>17.8.0</MicrosoftNETTestSdkVersion>
-    <NUnitVersion>3.14.0</NUnitVersion>
-    <NUnitConsoleRunnerVersion>3.16.3</NUnitConsoleRunnerVersion>
-    <NUnit3TestAdapterVersion>4.5.0</NUnit3TestAdapterVersion>
+    <MicrosoftNETTestSdkVersion>17.13.0</MicrosoftNETTestSdkVersion>
+    <NUnitVersion>4.3.2</NUnitVersion>
+    <NUnitConsoleRunnerVersion>3.20.1</NUnitConsoleRunnerVersion>
+    <NUnit3TestAdapterVersion>5.0.0</NUnit3TestAdapterVersion>
     <StyleCopAnalyzersVersion>1.1.118</StyleCopAnalyzersVersion>
   </PropertyGroup>
 </Project>
